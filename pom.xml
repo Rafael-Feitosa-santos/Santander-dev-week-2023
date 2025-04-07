@@ -76,10 +76,17 @@
 
 	<build>
 		<plugins>
-			<!-- Plugin do Spring Boot -->
+			<!-- Plugin do Spring Boot com repackage -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 
 			<!-- Plugin para configurar o Manifest com a classe principal -->
