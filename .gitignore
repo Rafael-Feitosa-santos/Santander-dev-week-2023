@@ -5,7 +5,7 @@
 *.ear
 
 # Maven Wrapper
-.mvn/
+##.mvn/
 !/.mvn/wrapper/maven-wrapper.jar
 mvnw
 mvnw.cmd
