@@ -3,7 +3,6 @@ package br.com.dio.service.impl;
 import br.com.dio.model.User;
 import br.com.dio.repository.UserRepository;
 import br.com.dio.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.NoSuchElementException;
@@ -11,7 +10,6 @@ import java.util.NoSuchElementException;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
     private UserRepository userRepository;
 
     public UserServiceImpl(UserRepository userRepository) {
