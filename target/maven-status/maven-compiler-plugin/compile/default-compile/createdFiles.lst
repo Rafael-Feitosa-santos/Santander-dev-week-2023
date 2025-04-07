@@ -1,0 +1,13 @@
+br\com\dio\model\News.class
+br\com\dio\model\Account.class
+br\com\dio\model\BaseItem.class
+br\com\dio\config\SwaggerConfig.class
+br\com\dio\model\User.class
+br\com\dio\model\Card.class
+br\com\dio\exception\GlobalExceptionHandler.class
+br\com\dio\repository\UserRepository.class
+br\com\dio\service\impl\UserServiceImpl.class
+br\com\dio\service\UserService.class
+br\com\dio\Application.class
+br\com\dio\controller\UserController.class
+br\com\dio\model\Feature.class
